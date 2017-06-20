@@ -1,4 +1,4 @@
-package com.piggymetrics.account.client;
+Package com.piggymetrics.account.client;
 
 import com.piggymetrics.account.domain.Account;
 import org.springframework.cloud.netflix.feign.FeignClient;
@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface StatisticsServiceClient {
 
 	@RequestMapping(method = RequestMethod.PUT, value = "/statistics/{accountName}", consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
-	void updateStatistics(@PathVariable("accountName") String accountName, Account account);
+	void updateStatistics(@PathVariable("accountName") String accountName, Account account1111111111111111111111);
 
 }
